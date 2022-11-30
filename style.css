@@ -15,7 +15,9 @@ a:link {
     flex: 1;
     flex-direction: row;
     align-items: space-between;
+    justify-content: center;
     max-height: 150px;
+    padding: 30px;
     border: 1px solid red;
 }
 
@@ -25,8 +27,21 @@ a:link {
     border: 1px solid orange;
 }
 
-.header-links {
+.empty {
     flex: auto;
-    text-align: end;
+    border: 1px dotted greenyellow;
+}
+
+.link-container {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid yellow;
+}
+
+.header-link {
+    border: 1px solid aqua;
 }
