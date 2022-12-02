@@ -21,8 +21,8 @@ a:link {
     justify-content: center;
     max-height: 80px;
     padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo {
@@ -51,9 +51,9 @@ a:link {
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
     margin-top: 0px;
     color: #F9FAF8;
 }
@@ -69,11 +69,13 @@ a:link {
 .hero-h1 {
     font-size: 48px;
     font-weight: 900;
+    max-width: 600px;
 }
 
 .hero-sub {
     padding-top: 15px;
     padding-bottom: 15px;
+    max-width: 750px;
 }
 
 .hero-right {
@@ -86,7 +88,7 @@ a:link {
     min-height: 300px;
     min-width: 300px;
     max-width: 100%;
-    max-height: 500px;
+    max-height: 400px;
     animation: hero-rotate 5s infinite;
 }
 
@@ -119,6 +121,8 @@ a:link {
     align-items: center;
     margin-top: 10px;
     margin-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .content-h1 {
@@ -153,7 +157,7 @@ a:link {
     flex: auto;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 80px 40px 60px 40px;
+    padding: 80px 240px 60px 240px;
 }
 
 .quote-text {
@@ -173,21 +177,21 @@ a:link {
     border: none;
     display: flex;
     justify-content: space-between;
-    margin: 60px 100px 60px 100px;
-    padding: 50px 40px 50px 90px;
+    margin: 60px 220px 60px 220px;
+    padding: 50px 50px 50px 50px;
     background-color: #3882f6;
 }
 
 .cta-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    max-width: 400px;
+    justify-content: center;
+    padding-left: 40px;
 }
 
 .cta-h1 {
     color: whitesmoke;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-size: 24px;
 }
 
@@ -207,11 +211,10 @@ a:link {
     background-color: #3882f6;
     color: #f9faf8;
     font-family: 'Sono', Helvetica, sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 15px 10px 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    max-width: 125px;
+    max-width: 200px;
     transition: 200ms;
 }
 
