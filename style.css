@@ -10,6 +10,15 @@ body {
 a:link {
     text-decoration: none;
     color: aliceblue;
+    transition: 200ms;
+}
+
+a:hover {
+    color: rgb(134, 174, 211);
+}
+
+a:active {
+    color: rgb(134, 174, 211);
 }
 
 .header {
@@ -187,6 +196,7 @@ a:link {
     flex-direction: column;
     justify-content: center;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .cta-h1 {
@@ -203,6 +213,7 @@ a:link {
     display: flex;
     justify-content: flex-end;
     padding-right: 40px;
+    padding-left: 40px;
 }
 
 .cta-button {
