@@ -3,7 +3,7 @@
 /* change all padding-left/right to 120px at publish */
 
 body {
-    font-family: 'Sono', sans-serif;
+    font-family: 'Sono', Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -107,6 +107,7 @@ a:link {
     border: none;
     background-color: #3882f6;
     color: #f9faf8;
+    font-family: 'Sono', Helvetica, sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 20px;
@@ -173,4 +174,62 @@ a:link {
 
 .quote-author {
     align-self: flex-end;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px 20px 100px 20px;
+    background-color: #3882f6;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cta-h1 {
+    color: whitesmoke;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+.cta-text {
+    color: whitesmoke;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta-button {
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: 'Sono', Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 125px;
+    transition: 200ms;
+}
+
+.cta-button:hover {
+    background-color: whitesmoke;
+    border: 3px solid #3882f6;
+    color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 40px 20px;
 }
