@@ -22,7 +22,7 @@ a:active {
 }
 
 .header {
-    background-color: #1f2937;
+    background-color: #C231DF;
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -55,7 +55,7 @@ a:active {
 }
 
 .hero-container {
-    background-color: #1f2937;
+    background-color: #C231DF;
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -107,9 +107,9 @@ a:active {
 
 .hero-button {
     border-radius: 10px;
-    border: none;
-    background-color: #3882f6;
-    color: #f9faf8;
+    border: 3px solid #C231DF;
+    background-color: #5EC7F5;
+    color: rgb(48, 48, 48);
     font-family: 'Sono', Helvetica, sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -120,22 +120,24 @@ a:active {
 }
 
 .hero-button:hover {
-    background-color: #5a96f7;
-    color: whitesmoke;
+    background-color: #C231DF;
+    border: 3px solid #5EC7F5;
+    color: #5EC7F5;
 }
 
 .content-container {
+    background-color: #5EC7F5;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 100px;
     padding-left: 200px;
     padding-right: 200px;
 }
 
 .content-h1 {
-    color: #1f2937;
+    color: #150417;
     font-size: 36px;
     font-weight: 800;
     padding: 40px;
@@ -165,7 +167,7 @@ a:active {
     display: flex;
     flex: auto;
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: #C231DF;
     padding: 100px 300px 100px 300px;
 }
 
@@ -173,13 +175,19 @@ a:active {
     font-size: 30px;
     font-weight: lighter;
     font-style: italic;
-    color: #1f2937;
+    color: whitesmoke;
     padding-bottom: 20px;
 }
 
 .quote-author {
     align-self: flex-end;
     font-size: 20px;
+    color: white;
+}
+
+.cta-bg {
+    background-color: #C231DF;
+    padding: 60px 220px 60px 220px;
 }
 
 .cta-container {
@@ -187,9 +195,8 @@ a:active {
     border: none;
     display: flex;
     justify-content: space-between;
-    margin: 60px 220px 60px 220px;
     padding: 50px 50px 50px 50px;
-    background-color: #3882f6;
+    background-color: #5EC7F5;
 }
 
 .cta-left {
@@ -201,13 +208,13 @@ a:active {
 }
 
 .cta-h1 {
-    color: whitesmoke;
+    color: #150417;
     padding-bottom: 10px;
     font-size: 24px;
 }
 
 .cta-text {
-    color: whitesmoke;
+    color: #150417;
 }
 
 .cta-right {
@@ -219,9 +226,9 @@ a:active {
 
 .cta-button {
     border-radius: 10px;
-    border: 3px solid whitesmoke;
-    background-color: #3882f6;
-    color: #f9faf8;
+    border: 3px solid #150417;
+    background-color: #5EC7F5;
+    color: #150417;
     font-family: 'Sono', Helvetica, sans-serif;
     padding: 10px 15px 10px 15px;
     margin-top: 20px;
@@ -231,14 +238,14 @@ a:active {
 }
 
 .cta-button:hover {
-    background-color: whitesmoke;
-    border: 3px solid #3882f6;
-    color: #3882f6;
+    background-color: #C231DF;
+    border: 3px solid #5EC7F5;
+    color: #5EC7F5;
 }
 
 .footer {
-    background-color: #1f2937;
-    color: whitesmoke;
+    background-color: #5EC7F5;
+    color: #150417;
     display: flex;
     justify-content: center;
     padding: 40px 20px 40px 20px;
